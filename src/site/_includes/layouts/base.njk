@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" class="no-js">
+
+<head>
+
+{% include "meta.njk" %}
+ 
+    {% if buildconfig.env == 'production' %}
+    <link rel="stylesheet" href="{{ '/css/site.min.css' | url }}">
+    {% else %}
+    <link rel="stylesheet" href="{{ '/css/site.css' | url }}">
+    {% endif %}
+</head>
+<body>
+    {{ content | safe }}
+
+    {% if buildconfig.env == 'production' %}
+    <script async src="/js/site.min.js"></script>
+    {% else %}
+    <script async src="/js/site.js"></script>
+    {% endif %}
+</body>
+
+</html>

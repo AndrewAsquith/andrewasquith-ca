@@ -1,0 +1,10 @@
+{
+
+    "title": "SITE_TITLE",
+    "site_url": "SITE_URL",
+    "description": "SITE_DESC",
+    "author": {
+      "name": "AUTHOR_NAME",
+      "email": "AUTHOR@EMAIL"
+    }
+  }
