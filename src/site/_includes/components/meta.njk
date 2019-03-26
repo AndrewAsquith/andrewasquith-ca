@@ -1,0 +1,10 @@
+    {%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="canonical" href="{{absolutePageUrl}}" />
+    <meta name="description" content="{{description or site.description}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="{{title or site.title}}" />
+    <meta property="og:url" content="{{absolutePageUrl}}" />
+    <meta property="og:site_name" content="{{site.title}}" />
+    <title>{{title or site.title}}</title>
