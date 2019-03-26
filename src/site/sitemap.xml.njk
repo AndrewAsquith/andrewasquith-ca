@@ -7,7 +7,7 @@ excludeFromSitemap: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {%- for item in collections.all %}
 {%- if not item.data.excludeFromSitemap %}
-{% set absoluteUrl %} {{metadata.site_url + item.url | url }}{% endset %}
+{% set absoluteUrl %} {{item.url | url | absoluteUrl(site.url)}}{% endset %}
   <url>
     <loc>{{ absoluteUrl }}</loc>
     <lastmod>{{ item.date | isoDate }}</lastmod>
