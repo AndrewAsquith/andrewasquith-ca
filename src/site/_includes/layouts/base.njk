@@ -3,7 +3,7 @@
 
 <head>
 
-{% include "meta.njk" %}
+{% include "components/meta.njk" %}
  
     {% if buildconfig.env == 'production' %}
     <link rel="stylesheet" href="{{ '/css/site.min.css' | url }}">
@@ -14,10 +14,14 @@
 <body>
     {{ content | safe }}
 
+
     {% if buildconfig.env == 'production' %}
     <script async src="/js/site.min.js"></script>
     {% else %}
     <script async src="/js/site.js"></script>
+    {% endif %}
+    {% if buildconfig.env == 'production' and (analytics.google) %}
+    {% include "components/googleanalytics.njk" %}
     {% endif %}
 </body>
 
