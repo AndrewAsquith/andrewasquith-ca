@@ -1,0 +1,12 @@
+---
+permalink: feed.xml
+excludeFromSitemap: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ site.title }}</title>
+    <subtitle>{{ site.description }}</subtitle>
+    <link href="{{ site.feed | url | absoluteUrl(site.url) }}" rel="self" type="application/atom+xml" />
+    <link href="{{ site.url }}" rel="alternate" type="text/html"/>
+   
+</feed>

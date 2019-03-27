@@ -8,3 +8,4 @@
     <meta property="og:url" content="{{absolutePageUrl}}" />
     <meta property="og:site_name" content="{{site.title}}" />
     <title>{{title or site.title}}</title>
+    <link type="application/atom+xml" rel="alternate" href="{{ site.feed | url | absoluteUrl(site.url) }}" title="{{ site.title }}">

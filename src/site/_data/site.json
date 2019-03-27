@@ -1,5 +1,6 @@
 {
     "title": "Andrew Asquith",
     "url": "https://www.andrewasquith.ca",
-    "description": "Random Thoughts From a Random Guy"
+    "description": "Random Thoughts From a Random Guy",
+    "feed": "feed.xml"
 }
