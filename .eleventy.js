@@ -7,6 +7,8 @@ module.exports = function(config) {
 
     //layout aliases
     config.addLayoutAlias('base', 'layouts/base.njk')
+    config.addLayoutAlias('page', 'layouts/page.njk')
+    config.addLayoutAlias('post', 'layouts/post.njk')
 
     //filters
     config.addFilter('friendlydate', require('./_11ty/filters/friendly-date.js'));
