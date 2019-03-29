@@ -1,7 +1,7 @@
 
 require('dotenv').config();
 const  env = process.env.ELEVENTY_ENV;
-
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(config) {
 
@@ -11,12 +11,14 @@ module.exports = function(config) {
     config.addLayoutAlias('post', 'layouts/post.njk')
 
     //filters
-    config.addFilter('friendlydate', require('./_11ty/filters/friendly-date.js'));
+    config.addFilter('friendlyDate', require('./_11ty/filters/friendly-date.js'));
     config.addFilter('isoDate', require('./_11ty/filters/iso-date.js'));
-    config.addFilter("absoluteUrl", require('./_11ty/filters/absoluteUrl.js'));
 
     //Minify HTML (when ELEVENTY_ENV is production)
     config.addTransform('htmlmin', require('./_11ty/transforms/html-minify.js'));
+
+    //eleventy-plugin-rss
+    config.addPlugin(pluginRss);
 
     // Base Config
     return {
