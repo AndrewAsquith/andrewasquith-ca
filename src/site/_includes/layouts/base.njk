@@ -6,9 +6,9 @@
 {% include "components/meta.njk" %}
  
     {% if buildconfig.env == 'production' %}
-    <link rel="stylesheet" href="{{ '/css/site.min.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/site.v' + buildconfig.version + '.min.css' | url }}">
     {% else %}
-    <link rel="stylesheet" href="{{ '/css/site.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/site.v' + buildconfig.version + '.css' | url }}">
     {% endif %}
 </head>
 <body>
@@ -16,9 +16,9 @@
 
 
     {% if buildconfig.env == 'production' %}
-    <script async src="/js/site.min.js"></script>
+    <script async src="{{ '/js/site.v' + buildconfig.version + '.min.js' | url }}"></script>
     {% else %}
-    <script async src="/js/site.js"></script>
+    <script async src="{{ '/js/site.v' + buildconfig.version + '.js' | url }}"></script>
     {% endif %}
     {% if buildconfig.env == 'production' and (analytics.google) %}
     {% include "components/googleanalytics.njk" %}

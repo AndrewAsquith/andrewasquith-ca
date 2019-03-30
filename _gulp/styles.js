@@ -24,6 +24,7 @@ function devstyles() {
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer('last 2 versions'))
+        .pipe(rename( { extname: '.v' + process.env.VERSION + '.css'}))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(config.paths.dist + '/css'));
 }
@@ -34,6 +35,6 @@ function prodstyles() {
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer('last 2 versions'))
         .pipe(cleanCSS())
-        .pipe(rename({ extname: '.min.css' }))
+        .pipe(rename({ extname: '.v' + process.env.VERSION + '.min.css' }))
         .pipe(gulp.dest(config.paths.dist + '/css'));
 }

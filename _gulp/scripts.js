@@ -22,6 +22,7 @@ function devscripts() {
     return gulp.src(config.paths.scripts + '/*.js')
         .pipe(sourcemaps.init())
         .pipe(concat('site.js'))
+        .pipe(rename( { extname: '.v' + process.env.VERSION + '.js'}))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(config.paths.dist + '/js'));
 }
@@ -31,6 +32,6 @@ function prodscripts() {
     return gulp.src(config.paths.scripts + '/*.js')
         .pipe(concat('site.js'))
         .pipe(uglify())
-        .pipe(rename({ extname: '.min.js' }))
+        .pipe(rename({ extname: '.v' + process.env.VERSION + '.min.js' }))
         .pipe(gulp.dest(config.paths.dist + '/js'));
 }
