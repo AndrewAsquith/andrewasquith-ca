@@ -2,7 +2,7 @@ const config = require('./_config.json');
 const gulp = require('gulp');
 const imagemin = require('gulp-imagemin');
 
-gulp.task('images', function imagse() {
+gulp.task('images', function images() {
 
     return gulp.src(config.paths.images + '/**/*')
         .pipe(imagemin([

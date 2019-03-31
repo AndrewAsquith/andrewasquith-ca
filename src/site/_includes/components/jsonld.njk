@@ -3,13 +3,17 @@
     <script type="application/ld+json">
     {
         "@context": "http://schema.org",
-        {%- if isPost -%}
+        {% if isPost -%}
         "@type": "BlogPosting",
-        {%- else -%}
+        {% else -%}
         "@type":"WebSite",
-        {%- endif -%}
+        {% endif -%}
         "url":"{{ absolutePageUrl }}",
-        "image":"{{image or site.logo}}",
+        {% if image -%}
+        "image":"{{ image | imageUrl(page) | absoluteUrl(site.url) }}",
+        {% else -%}
+        "image": "{{ site.logo }}"
+        {% endif -%}
         "headline":"{{title or site.title}}",
         "description": "{{description or site.description}}",
         "author": {

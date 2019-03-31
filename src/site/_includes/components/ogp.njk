@@ -2,5 +2,9 @@
     <meta property="og:title" content="{{title or site.title}}" />
     <meta property="og:url" content="{{absolutePageUrl}}" />
     <meta property="og:site_name" content="{{site.title}}" />
-    <meta property="og:image" content="{{image or site.logo}}" />
     <meta property="og:type" content="website" />
+    {% if image -%}
+    <meta property="og:image" content="{{image | imageUrl(page) | absoluteUrl(page) }}" />
+    {% else -%}
+    <meta property="og:image" content="{{site.logo | absoluteUrl(page) }}" />
+    {% endif -%}
