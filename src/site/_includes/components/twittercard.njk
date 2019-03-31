@@ -1,0 +1,6 @@
+    {% set absolutePageUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="{{author.twitter.name}}" />
+    <meta name="twitter:title" content="{{title or site.title}}" />
+    <meta name="twitter:description" content="{{description or site.description}}" />
+    <meta name="twitter:image" content="{{image or site.logo}}" />

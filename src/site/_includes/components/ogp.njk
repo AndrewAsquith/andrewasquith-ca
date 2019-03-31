@@ -1,0 +1,6 @@
+    {% set absolutePageUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+    <meta property="og:title" content="{{title or site.title}}" />
+    <meta property="og:url" content="{{absolutePageUrl}}" />
+    <meta property="og:site_name" content="{{site.title}}" />
+    <meta property="og:image" content="{{image or site.logo}}" />
+    <meta property="og:type" content="website" />

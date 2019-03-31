@@ -1,0 +1,21 @@
+{
+    "name": "Andrew Asquith",
+    "email": "email@email.email",
+    "avatar": "/img/aa-headshot.jpg",
+    "twitter": {
+        "name": "@Andrew_Asquith",
+        "url": "https://twitter.com/Andrew_Asquith"
+    },
+    "linkedin": {
+        "name": "Andrew Asquith",
+        "url": "https://ca.linkedin.com/in/AndrewAsquith"
+    },
+    "instagram": {
+        "name": "@Andrew_Asquith",
+        "url": "https://instagram.com/Andrew_Asquith"
+    },
+    "github": {
+        "name": "Andrew Asquith",
+        "url": "https://github.com/AndrewAsquith"
+    }
+}

@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" class="no-js">
-
 <head>
 
 {% include "components/meta.njk" %}
- 
-    {% if buildconfig.env == 'production' %}
+{% include "components/ogp.njk" %}
+{% include "components/twittercard.njk" %}
+{% include "components/jsonld.njk" %}
+
+    {%- if buildconfig.env == 'production' %}
     <link rel="stylesheet" href="{{ '/css/site.v' + buildconfig.version + '.min.css' | url }}">
-    {% else %}
+    {%- else %}
     <link rel="stylesheet" href="{{ '/css/site.v' + buildconfig.version + '.css' | url }}">
-    {% endif %}
+    {%- endif %}
 </head>
 <body>
     {{ content | safe }}
-
 
     {% if buildconfig.env == 'production' %}
     <script async src="{{ '/js/site.v' + buildconfig.version + '.min.js' | url }}"></script>
@@ -24,5 +25,4 @@
     {% include "components/googleanalytics.njk" %}
     {% endif %}
 </body>
-
 </html>
