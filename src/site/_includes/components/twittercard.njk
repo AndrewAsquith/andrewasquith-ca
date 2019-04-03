@@ -1,8 +1,11 @@
     {% set absolutePageUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+    {%- if image %}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{ image | imageUrl(page) | absoluteUrl(site.url)}}" />
+    {%- else -%}
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="{{author.twitter.name}}" />
+    {%- endif -%}
+    <meta name="twitter:creator" content="{{author.twitter.name}}" />
     <meta name="twitter:title" content="{{title or site.title}}" />
     <meta name="twitter:description" content="{{description or site.description}}" />
-    {%- if image %}
-    <meta name="twitter:image" content="{{ image | imageUrl(page) | absoluteUrl(site.url)}}" />
-    {%- endif -%}
+    
