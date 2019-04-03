@@ -21,6 +21,11 @@ module.exports = function(config) {
     //eleventy-plugin-rss
     config.addPlugin(pluginRss);
 
+    //custom collections
+    config.addCollection("posts", function(collection) {
+        return collection.getFilteredByGlob("posts/*.md");
+      });
+
     // Base Config
     return {
         dir: {
