@@ -4,7 +4,7 @@
     <meta property="og:site_name" content="{{site.title}}" />
     <meta property="og:type" content="website" />
     {% if image -%}
-    <meta property="og:image" content="{{image | imageUrl(page) | absoluteUrl(page) }}" />
+    <meta property="og:image" content="{{image | imageUrl(page) | absoluteUrl(site.url) }}" />
     {% else -%}
-    <meta property="og:image" content="{{site.logo | absoluteUrl(page) }}" />
+    <meta property="og:image" content="{{site.logo | absoluteUrl(site.url) }}" />
     {% endif -%}
