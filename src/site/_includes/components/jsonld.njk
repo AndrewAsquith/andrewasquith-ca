@@ -14,8 +14,8 @@
         {% else -%}
         "image": "{{ site.logo }}"
         {% endif -%}
-        "headline":"{{title or site.title}}",
-        "description": "{{description or site.description}}",
+        "headline":"{{renderData.title or title or site.title}}",
+        "description": "{{renderData.description or description or site.description}}",
         "author": {
             "@type": "Person",
             "name": "{{ author.name }}",

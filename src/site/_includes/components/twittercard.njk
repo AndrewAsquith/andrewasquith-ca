@@ -6,6 +6,6 @@
     <meta name="twitter:card" content="summary" />
     {% endif -%}
     <meta name="twitter:creator" content="{{author.twitter.name}}" />
-    <meta name="twitter:title" content="{{title or site.title}}" />
-    <meta name="twitter:description" content="{{description or site.description}}" />
+    <meta name="twitter:title" content="{{renderData.title or title or site.title}}" />
+    <meta name="twitter:description" content="{{renderData.description or description or site.description}}" />
     

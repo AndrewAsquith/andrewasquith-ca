@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{title or site.title}}</title>
-    <meta name="description" content="{{description or site.description}}">
+    <title>{{renderData.title or title }} &verbar; {{ site.title }}</title>
+    <meta name="description" content="{{renderData.description or description or site.description}}">
     <link rel="canonical" href="{{absolutePageUrl}}" />
     <link type="application/atom+xml" rel="alternate" href="{{ site.feed | url | absoluteUrl(site.url) }}" title="{{ site.title }}">
