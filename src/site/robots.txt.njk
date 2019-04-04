@@ -1,0 +1,8 @@
+---
+permalink: /robots.txt
+excludeFromSitemap: true
+---
+User-agent: *
+Allow: /
+
+Sitemap: {{ site.feed | url | absoluteUrl(site.url) }}

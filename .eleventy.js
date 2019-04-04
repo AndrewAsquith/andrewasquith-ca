@@ -30,7 +30,7 @@ module.exports = function(config) {
 
 
     //pass through files
-    config.addPassthroughCopy('./src/site/robots.txt');
+    //config.addPassthroughCopy('./src/site/robots.txt');
 
 
     // Base Config
