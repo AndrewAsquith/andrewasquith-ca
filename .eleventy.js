@@ -23,8 +23,15 @@ module.exports = function(config) {
 
     //custom collections
     config.addCollection("posts", function(collection) {
-        return collection.getFilteredByGlob("posts/*.md");
+        return collection.getFilteredByGlob("**/posts/*.md");
       });
+      
+    config.addCollection("tagList", require("./_11ty/helpers/getTagList.js"));
+
+
+    //pass through files
+    config.addPassthroughCopy('./src/site/robots.txt');
+
 
     // Base Config
     return {
