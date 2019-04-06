@@ -10,7 +10,8 @@ const htmlmin = require('html-minifier');
                 useShortDoctype: true,
                 removeComments: true,
                 collapseWhitespace: true,
-                minifyJS: true
+                minifyJS: true,
+                processScripts: "application/ld+json"
             })
         }
         return content
