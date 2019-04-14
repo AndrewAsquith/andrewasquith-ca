@@ -1,8 +1,16 @@
     {% set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
+    {% set pageTitle -%}{{renderData.title or title }} &verbar; {{ site.title }}{%- endset -%}
+    {% set pageDescription -%}{{renderData.description or description or site.description}}{%- endset -%}
+    {% if image %}{%set pageImage %}{{image | imageUrl(page) | absoluteUrl(site.url)}}{%- endset -%}{% endif -%}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{renderData.title or title }} &verbar; {{ site.title }}</title>
-    <meta name="description" content="{{renderData.description or description or site.description}}">
-    <link rel="canonical" href="{{absolutePageUrl}}" />
+    {% metaTitle pageTitle %}
+    {% metaDescription pageDescription %}
+    {% canonical absolutePageUrl %}
     <link type="application/atom+xml" rel="alternate" href="{{ site.feed | url | absoluteUrl(site.url) }}" title="{{ site.title }}">
+
+    {% twitterSummaryCard author.twitter.name, pageTitle, pageDescription, pageImage -%}
+    {% opengraphRequired pageTitle, ogpType or 'website', site.url, pageImage or site.logo -%}
+    {% opengraphSite site.title -%}
+    {% opengraphDescription pageDescription -%}

@@ -3,6 +3,10 @@ require('dotenv').config();
 const  env = process.env.ELEVENTY_ENV;
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+const htmlMetaCodes = require('./_11ty/shortcodes/htmlMeta');
+const openGraphCodes = require('./_11ty/shortcodes/opengraph');
+const twitterCardCodes = require('./_11ty/shortcodes/twitterCard');
+
 module.exports = function(config) {
 
     //layout aliases
@@ -20,6 +24,15 @@ module.exports = function(config) {
 
     //eleventy-plugin-rss
     config.addPlugin(pluginRss);
+
+    //shortcodes
+    config.addShortcode('canonical', htmlMetaCodes.canonical);
+    config.addShortcode('metaDescription', htmlMetaCodes.metaDescription);
+    config.addShortcode('metaTitle', htmlMetaCodes.metaTitle);
+    config.addShortcode('twitterSummaryCard', twitterCardCodes.summaryCard);
+    config.addShortcode('opengraphRequired', openGraphCodes.required);
+    config.addShortcode('opengraphDescription', openGraphCodes.description);
+    config.addShortcode('opengraphSite', openGraphCodes.sitename);
 
     //custom collections
     config.addCollection("posts", function(collection) {
