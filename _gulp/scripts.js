@@ -8,7 +8,7 @@ const concat = require('gulp-concat');
 require('dotenv').config();
 const env = process.env.ELEVENTY_ENV;
 
-gulp.task('scripts', function styles() {
+gulp.task('scripts', function scripts() {
     if (env == "production") {
         return prodscripts();
     } else {
