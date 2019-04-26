@@ -10,9 +10,14 @@ const metaDescription = function(description) {
     return `<meta name="description" content="${description}" />`;
 };
 
+const metaAuthor = function(authorUrl) {
+    return `<link rel="author" href="${authorUrl}" />`;
+}
+
 
 module.exports = {
     canonical,
     metaTitle,
-    metaDescription
+    metaDescription,
+    metaAuthor
 };
