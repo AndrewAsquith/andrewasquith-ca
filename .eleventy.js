@@ -6,7 +6,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const htmlMetaCodes = require('./_11ty/shortcodes/htmlMeta');
 const openGraphCodes = require('./_11ty/shortcodes/opengraph');
 const twitterCardCodes = require('./_11ty/shortcodes/twitterCard');
-
+const jsonldCodes = require('./_11ty/shortcodes/jsonld');
 module.exports = function(config) {
 
     //layout aliases
@@ -33,6 +33,20 @@ module.exports = function(config) {
     config.addShortcode('opengraphRequired', openGraphCodes.required);
     config.addShortcode('opengraphDescription', openGraphCodes.description);
     config.addShortcode('opengraphSite', openGraphCodes.sitename);
+    config.addPairedShortcode('jsonldWrapper', jsonldCodes.wrapper);
+    config.addPairedShortcode('jsonldAuthor',jsonldCodes.author);
+    config.addShortcode('jsonldDescription', jsonldCodes.description);
+    config.addShortcode('jsonldSameAs', jsonldCodes.sameAs);
+    config.addShortcode('jsonldMainEntity', jsonldCodes.mainEntity);
+    config.addShortcode('jsonldHeadline', jsonldCodes.headline);
+    config.addPairedShortcode('jsonldArticle', jsonldCodes.article);
+    config.addPairedShortcode('jsonldBlogPosting', jsonldCodes.blogposting);
+    config.addShortcode('jsonldImage', jsonldCodes.image);
+    config.addShortcode('jsonldUrl', jsonldCodes.url);
+    config.addPairedShortcode('jsonldPropertyWrapper', jsonldCodes.propertyWrapper);
+    config.addShortcode('jsonldId', jsonldCodes.id);
+    config.addShortcode('jsonldType', jsonldCodes.type);
+    config.addShortcode('jsonldProperty', jsonldCodes.kvp);
 
     //custom collections
     config.addCollection("posts", function(collection) {
