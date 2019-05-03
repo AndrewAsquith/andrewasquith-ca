@@ -35,6 +35,7 @@ module.exports = function(config) {
     config.addShortcode('opengraphSite', openGraphCodes.sitename);
     config.addPairedShortcode('jsonldWrapper', jsonldCodes.wrapper);
     config.addPairedShortcode('jsonldAuthor',jsonldCodes.author);
+    config.addPairedShortcode('jsonldOrganization',jsonldCodes.organization);
     config.addShortcode('jsonldDescription', jsonldCodes.description);
     config.addShortcode('jsonldSameAs', jsonldCodes.sameAs);
     config.addShortcode('jsonldMainEntity', jsonldCodes.mainEntity);
@@ -47,6 +48,8 @@ module.exports = function(config) {
     config.addShortcode('jsonldId', jsonldCodes.id);
     config.addShortcode('jsonldType', jsonldCodes.type);
     config.addShortcode('jsonldProperty', jsonldCodes.kvp);
+    config.addPairedShortcode('jsonldBreadcrumblist', jsonldCodes.breadcrumblist);
+    config.addShortcode('jsonldBreadcrumbitem', jsonldCodes.breadcrumbitem);
 
     //custom collections
     config.addCollection("posts", function(collection) {

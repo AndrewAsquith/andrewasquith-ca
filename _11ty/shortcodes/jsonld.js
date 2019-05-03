@@ -40,6 +40,15 @@ const author = function(content,name) {
     return ret;
 }
 
+const organization = function(content,name) {
+    let ret = `"author": { "@type": "Organization", "name": "${name}"`;
+    if (!isEmpty(content)) {
+        ret += `, ${removeTrailingComma(content)}`;
+    }
+    ret += ` },`;
+    return ret;
+}
+
 const mainEntity = function (url) {
     return `"mainEntityOfPage": { "@type": "WebPage", "@id": "${url}" },`
 }
@@ -57,6 +66,15 @@ const blogposting = function(content, headlineText) {
 
     let newContent = `\n\t\t` + headline(headlineText) + content;
     return wrapper(newContent, "BlogPosting");
+}
+
+const breadcrumblist = function(content) {
+    let newContent = `"itemListElement": [` + removeTrailingComma(content) + "]";
+    return wrapper(newContent, "BreadcrumbList");
+}
+
+const breadcrumbitem = function(position, name, item) {
+    return `{ "@type": "ListItem", "position": "${position}", "name": "${name}", "item": "${item}" },`;
 }
 
 const image = function(...args) {
@@ -109,6 +127,7 @@ module.exports = {
     description,
     sameAs,
     author,
+    organization,
     mainEntity,
     headline,
     article,
@@ -117,6 +136,8 @@ module.exports = {
     url,
     id,
     type,
+    breadcrumblist,
+    breadcrumbitem,
     propertyWrapper,
     kvp
 }
