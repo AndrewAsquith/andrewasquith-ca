@@ -33,6 +33,9 @@ module.exports = function(config) {
     config.addShortcode('opengraphRequired', openGraphCodes.required);
     config.addShortcode('opengraphDescription', openGraphCodes.description);
     config.addShortcode('opengraphSite', openGraphCodes.sitename);
+    config.addShortcode('opengraphArticleAuthor', openGraphCodes.articleAuthor);
+    config.addShortcode('opengraphArticlePublished', openGraphCodes.articlePublished);
+    config.addShortcode('opengraphArticleTags', openGraphCodes.articleTags);
     config.addPairedShortcode('jsonldWrapper', jsonldCodes.wrapper);
     config.addPairedShortcode('jsonldAuthor',jsonldCodes.author);
     config.addPairedShortcode('jsonldOrganization',jsonldCodes.organization);

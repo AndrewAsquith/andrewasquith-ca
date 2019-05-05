@@ -14,9 +14,34 @@ const description = function(description) {
 const sitename = function(sitename) {
     return `<meta property="og:site_name" contents="${sitename}" />`;
 }
+
+const articleAuthor = function(author) {
+    return `<meta property="article:author" content"${author}" />`;
+}
+
+const articlePublished = function(date) {
+    return `<meta property="article:published_time" contents="${date}" />`;
+}
+
+const articleTags = function(...args) {
+    let tags = Array();
+    if (args.length === 1) {
+        tags = String(args[0]).split(",");
+    } else {
+        tags = args;
+    }
+    let ret = String();
+    tags.forEach(tag => {
+        ret += `<meta property="article:tag" contents="${tag}" />`;
+    });
+    return ret;
+}
  
 module.exports = {
     required,
     description,
-    sitename
+    sitename,
+    articleAuthor,
+    articlePublished,
+    articleTags
 };
