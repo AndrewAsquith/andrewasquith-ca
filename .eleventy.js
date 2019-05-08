@@ -50,6 +50,8 @@ module.exports = function(config) {
     config.addPairedShortcode('jsonldPropertyWrapper', jsonldCodes.propertyWrapper);
     config.addShortcode('jsonldId', jsonldCodes.id);
     config.addShortcode('jsonldType', jsonldCodes.type);
+    config.addShortcode('jsonldName', jsonldCodes.name);
+    config.addShortcode('jsonldDatePublished', jsonldCodes.datepublished);
     config.addShortcode('jsonldProperty', jsonldCodes.kvp);
     config.addPairedShortcode('jsonldBreadcrumblist', jsonldCodes.breadcrumblist);
     config.addShortcode('jsonldBreadcrumbitem', jsonldCodes.breadcrumbitem);

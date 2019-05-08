@@ -93,6 +93,14 @@ const type = function(type) {
     return kvp("@type", type);
 }
 
+const name = function(name) {
+    return kvp("name", name);
+}
+
+const datepublished = function(datepublished) {
+    return kvp("datePublished", datepublished);
+}
+
 const kvp = function(key, value) {
     return `"${key}": "${value}",`;
 }
@@ -131,11 +139,13 @@ module.exports = {
     mainEntity,
     headline,
     article,
+    datepublished,
     blogposting,
     image,
     url,
     id,
     type,
+    name,
     breadcrumblist,
     breadcrumbitem,
     propertyWrapper,
