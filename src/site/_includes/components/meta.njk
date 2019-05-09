@@ -1,16 +1,48 @@
     {% set absolutePageUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
     {% set pageTitle -%}{{renderData.title or title }} &verbar; {{ site.title }}{%- endset -%}
     {% set pageDescription -%}{{renderData.description or description or site.description}}{%- endset -%}
+    {% set pageDate -%}{{ page.date.toISOString() }}{%- endset -%}
     {% if image %}{%set pageImage %}{{image | imageUrl(page) | absoluteUrl(site.url)}}{%- endset -%}{% endif -%}
+    {% set isPost = layout == 'post' %}
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="application/atom+xml" rel="alternate" href="{{ site.feed | url | absoluteUrl(site.url) }}" title="{{ site.title }}">
+
     {% metaTitle pageTitle %}
     {% metaDescription pageDescription %}
     {% canonical absolutePageUrl %}
-    <link type="application/atom+xml" rel="alternate" href="{{ site.feed | url | absoluteUrl(site.url) }}" title="{{ site.title }}">
 
     {% twitterSummaryCard author.twitter.name, pageTitle, pageDescription, pageImage -%}
-    {% opengraphRequired pageTitle, ogpType or 'website', site.url, pageImage or site.logo -%}
-    {% opengraphSite site.title -%}
-    {% opengraphDescription pageDescription -%}
+    {%- if isPost -%}
+    {% opengraphRequired pageTitle, "Article", site.url, pageImage or site.logo -%}
+    {% opengraphArticlePublished pageDate %}
+    {% if tags %}{% opengraphArticleTags tags %}{% endif %}
+    {%- else -%}
+    {% opengraphRequired pageTitle, "Website", site.url, pageImage or site.logo -%}
+    {%- endif -%}
+    {% opengraphSite site.title %}
+    {% opengraphDescription pageDescription %}
+
+    {%- if isPost -%}
+    {% jsonldBlogPosting renderData.title or title %}
+        {% jsonldDescription renderData.description or description %}
+        {% jsonldMainEntity absolutePageUrl %}
+        {% jsonldAuthor author.name %}
+            {% jsonldSameAs  author.website.url, author.twitter.url, author.linkedin.url, author.instagram.url, author.github.url %}
+        {% endjsonldAuthor %}
+        {% jsonldDatePublished pageDate %}
+        {% if image %}{% jsonldImage pageImage %}{% endif %}
+    {% endjsonldBlogPosting %}
+    {%- else -%}
+    {% jsonldWrapper "WebPage" %}
+        {% jsonldUrl absolutePageUrl %}
+        {% jsonldName pageTitle %}
+        {% jsonldDescription pageDescription %}
+        {% if image %}{% jsonldImage pageImage %}{% endif %}
+        {% jsonldAuthor author.name %}
+            {% jsonldSameAs  author.website.url, author.twitter.url, author.linkedin.url, author.instagram.url, author.github.url %}
+        {% endjsonldAuthor %}
+    {% endjsonldWrapper %}
+    {%- endif -%}

@@ -4,7 +4,6 @@
 
 {% include "components/meta.njk" %}
 {% include "components/favicon.njk" %}
-{% include "components/jsonld.njk" %}
 
     {%- if buildconfig.env == 'production' %}
     <link rel="stylesheet" href="{{ '/css/site.v' + buildconfig.version + '.min.css' | url }}">

@@ -2,6 +2,10 @@
     "name": "Andrew Asquith",
     "email": "email@email.email",
     "avatar": "/img/aa-headshot.jpg",
+    "website": {
+        "name": "Andrew Asquith",
+        "url": "https://www.andrewasquith.com"
+    },
     "twitter": {
         "name": "@Andrew_Asquith",
         "url": "https://twitter.com/Andrew_Asquith"
