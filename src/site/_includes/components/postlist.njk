@@ -1,0 +1,28 @@
+<div class="postlist">
+{% for post in postlist | reverse %}
+  <div class="postlist-item">
+    <div class="postlist-item__header">
+    {%if post.data.image %}
+    <a href="{{post.url | url }}">
+      <img class="postlist-item__image" src="{{post.data.image | imageUrl(post) | absoluteUrl(site.url)}}" />
+    </a>
+    {% endif %}
+    <time class="postlist-item__date" datetime="{{ post.date | isoDate }}">{{ post.date | friendlyDate }}</time>
+    <a href="{{post.url | url}}">
+      <h2 class="postlist-item__title">{{ post.data.title }}</h2>
+    </a>
+    {% if post.data.description %}
+    <p class="postlist-item__description">{{ post.data.description }}</p>
+    {% endif %}
+    </div>
+    <div class="taglist">
+    {% for tag in post.data.tags %}
+      {%- if tag != "posts" -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="taglist__tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </div>
+  </div>
+{% endfor %}
+</div>

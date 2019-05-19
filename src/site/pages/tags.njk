@@ -16,7 +16,7 @@ permalink: /tags/{{ tag }}/
 excludeFromSitemap: true
 ---
 
-{% set postslist = collections[ tag ] %}
-{% include "components/postslist.njk" %}
+{% set postlist = collections[ tag ] %}
+{% include "components/postlist.njk" %}
 
 <p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

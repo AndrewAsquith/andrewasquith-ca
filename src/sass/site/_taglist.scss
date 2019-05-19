@@ -1,0 +1,21 @@
+/* container for the taglist */
+.taglist {
+    display: inline-block;
+}
+
+/* An individual tag  */
+.taglist__tag {
+    border-radius: 0.4rem;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-decoration: none;
+    background-color: $light-colour;
+
+}
+
+.taglist__tag:hover {
+    background-color: $dark-colour;
+}
