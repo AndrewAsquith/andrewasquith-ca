@@ -1,0 +1,42 @@
+
+.branding {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.branding-container {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+    font-weight: bold;
+    @include breakpoint(large) {
+        top: 80%;
+    }
+}
+
+.branding__img {
+    display:block;
+    max-width: 100%;
+}
+
+.branding__title {
+    font-size: 1.4rem;
+    @include breakpoint(medium) {
+        font-size: 1.7rem;
+    }
+    @include breakpoint(large) {
+        font-size: 2rem;
+    }
+}
+
+.branding__tagline {
+    font-size: 1.1rem;
+    @include breakpoint(medium) {
+        font-size: 1.3rem;
+    }
+    @include breakpoint(large) {
+        font-size: 1.5rem;
+    }
+}
