@@ -1,38 +1,74 @@
 /* container for post list */
 .postlist {
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 /* container for a single post in the list */
 .postlist-item {
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 2rem;
+    @include breakpoint(large) {
+        flex-direction: row;
+    }
 }
 
 /* container for image (if present) and date published 
  we need this for how we want to alter layouts on large screens
  */
 .postlist-item__header {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    @include breakpoint(large) {
+        flex: 0 0 33.333%;
+    }
+}
 
+.postlist-item__content {
+    order: 2;
+    @include breakpoint(large) {
+        padding-left: 4rem;
+    }
 }
 
 /* featured image for post in a postlist */
 .postlist-item__image {
-
+    max-width: 100%;
+    order: 1;
+    @include breakpoint(large) {
+        order: 2;
+    }
 }
 
 /* the date published for the postlist */
 .postlist-item__date {
 
+    padding-top: 0.9rem;
+    color: grey;
+    align-self: flex-start;
+    font-size: 1.1rem;
+    order: 2;
+
+    @include breakpoint(large) {
+        order: 1;
+        align-self: flex-end;
+
+    }
 }
 
 /* the post title for the postlist */
 .postlist-item__title {
-
+    font-size: 1.8rem;
 }
 
 /* the post description for the postlist */
 .postlist-item__description {
-
+    font-size: 1.24rem;
 }
 
 

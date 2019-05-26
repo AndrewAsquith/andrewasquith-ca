@@ -1,4 +1,17 @@
 ---
 layout: base
 ---
+<header>
+{% if image %}
+<img src="{{ image | url }}" alt="{{imageAlt or title}}" title="{{imageAlt or title}}" />
+{% endif %}
+<h1>{{title}}</h1>
+{% if description %}
+<h2>{{description}}</h2>
+{% endif %}
+</header>
+<article>
+ <main>
     {{ content | safe }}
+ <main>
+</article>
