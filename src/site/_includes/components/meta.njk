@@ -16,11 +16,11 @@
 
     {% twitterSummaryCard author.twitter.name, pageTitle, pageDescription, pageImage -%}
     {%- if isPost -%}
-    {% opengraphRequired pageTitle, "Article", site.url, pageImage or site.logo -%}
+    {% opengraphRequired pageTitle, "Article", site.url, pageImage or site.header_image -%}
     {% opengraphArticlePublished pageDate %}
     {% if tags %}{% opengraphArticleTags tags %}{% endif %}
     {%- else -%}
-    {% opengraphRequired pageTitle, "Website", site.url, pageImage or site.logo -%}
+    {% opengraphRequired pageTitle, "Website", site.url, pageImage or site.header_image -%}
     {%- endif -%}
     {% opengraphSite site.title %}
     {% opengraphDescription pageDescription %}

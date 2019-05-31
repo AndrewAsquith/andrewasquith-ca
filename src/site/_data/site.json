@@ -3,6 +3,8 @@
     "url": "https://www.andrewasquith.ca",
     "description": "Random Thoughts From a Random Guy",
     "logo": "/img/aa-logo.jpg",
+    "header_image": "/img/aa_header_2000_1200.jpg",
     "feed": "feed.xml",
-    "privacy_email": "privacy@andrewasquith.ca"
+    "privacy_email": "privacy@andrewasquith.ca",
+    "copyright": "Andrew Asquith"
 }

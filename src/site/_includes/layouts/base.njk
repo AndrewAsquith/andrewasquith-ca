@@ -21,5 +21,8 @@
     {% if buildconfig.env == 'production' and (analytics.google) %}
     {% include "components/googleanalytics.njk" %}
     {% endif %}
+<footer class="footer">
+        <p class="footer__copyright">&copy; {{site.copyright}}</p>
+</footer>
 </body>
 </html>
