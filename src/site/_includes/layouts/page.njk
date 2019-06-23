@@ -1,6 +1,14 @@
 ---
 layout: base
 ---
-<main class="container">
-    {{ content | safe }}
-</main>
+<header class="page__header">
+    <div class="page__branding-container">
+        <h1 class="branding__title">{{site.title}}</h1>
+        <h2 class="branding__tagline">{{site.description}}</h2>
+    </div>
+</header>
+<div class="container">
+    <main class="page__content">
+        {{ content | safe }}
+    </main>
+</div>

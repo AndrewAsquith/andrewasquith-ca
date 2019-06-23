@@ -2,7 +2,7 @@
     {% set pageTitle -%}{{renderData.title or title }} &verbar; {{ site.title }}{%- endset -%}
     {% set pageDescription -%}{{renderData.description or description or site.description}}{%- endset -%}
     {% set pageDate -%}{{ page.date.toISOString() }}{%- endset -%}
-    {% if image %}{%set pageImage %}{{image | imageUrl(page) | absoluteUrl(site.url)}}{%- endset -%}{% endif -%}
+    {% if image %}{%set pageImage %}{{image | url | absoluteUrl(site.url)}}{%- endset -%}{% endif -%}
     {% set isPost = layout == 'post' %}
 
     <meta charset="utf-8">

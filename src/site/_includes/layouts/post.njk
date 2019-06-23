@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<header>
+<header class="post__header">
 {% if image %}
 <img src="{{ image | url }}" alt="{{imageAlt or title}}" title="{{imageAlt or title}}" />
 {% endif %}
@@ -10,7 +10,7 @@ layout: base
 <h2>{{description}}</h2>
 {% endif %}
 </header>
-<article>
+<article class="post__content">
  <main>
     {{ content | safe }}
  <main>

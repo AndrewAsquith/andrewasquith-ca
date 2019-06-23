@@ -4,6 +4,7 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+
 }
 
 /* container for a single post in the list */
@@ -33,6 +34,8 @@
 
 .postlist-item__content {
     order: 2;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
     @include breakpoint(large) {
         padding-left: 4rem;
     }
