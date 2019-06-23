@@ -7,6 +7,9 @@ description: My little corner of the internet
 
     <header class="branding">
         <img src="/img/aa_header_2000_1200.jpg" class="branding__img" />
+        <div class="branding__navbar">
+            {% include "components/navbar.njk" %}
+        </div>
         <div class="branding-container">
             <h1 class="branding__title">{{site.title}}</h1>
             <h2 class="branding__tagline">{{site.description}}</h2>
