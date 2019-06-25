@@ -1,7 +1,10 @@
 .page__header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/aa_header_2000_1200.jpg");
     background-position: center;
+    margin-bottom: 3.5rem;
 }
+
+
 
 .page__branding-container {
     color: white;
@@ -12,4 +15,23 @@
 .page__content {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.page__read-more {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
+}
+
+.page__read-more-link { 
+    
+    border-radius: 0.6rem;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+    text-decoration: none;
+    background-color: $complimentary-color;
 }
