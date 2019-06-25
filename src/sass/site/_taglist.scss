@@ -37,4 +37,7 @@
     &:visited {
         color: $triad-color-two;
     }
+    &:visited:hover {
+        color: $triad-color-one;
+    }
 }

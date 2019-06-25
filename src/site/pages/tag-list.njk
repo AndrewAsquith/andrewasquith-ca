@@ -3,10 +3,9 @@ permalink: /tags/
 layout: page
 renderData:
   title: All Tags
-  description: The complete collection of tags in use
+  description: All content sorted by tag
 ---
-<h1>{{ renderData.title }}</h1>
-<h2>{{ renderData.description }}</h2>
+<h1 class="center">{{ renderData.title }} - {{ renderData.description }}</h1>
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
   <h2 class="tag-header"><a href="{{ tagUrl | url }}" class="tag-header__link">{{ tag }}</a></h2>

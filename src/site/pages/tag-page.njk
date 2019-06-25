@@ -15,8 +15,10 @@ renderData:
 permalink: /tags/{{ tag | slug }}/
 excludeFromSitemap: true
 ---
-
+<h1 class="center">{{renderData.title}}</h1>
 {% set postlist = collections[ tag ] %}
 {% include "components/postlist.njk" %}
 
-<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
+<div class="page__read-more">
+<a href="{{ '/tags/' | url }}" class="page__read-more-link">See All Tags</a>
+</div>
