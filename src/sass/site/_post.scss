@@ -2,6 +2,35 @@
     padding: 1rem;
 }
 
+.post__header-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.post__header-description {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    width: 100%;
+
+}
+
 .post__content {
     padding: 1.3rem;
+}
+
+.post__meta {
+    padding-left: 1.1rem;
+}
+
+.post__date {
+    color: grey;
+}
+
+.post__taglist {
+    padding-left: 1.6rem;
+    display: flex;
+    align-items: center;
 }
