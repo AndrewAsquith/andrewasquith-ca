@@ -1,0 +1,10 @@
+---
+permalink: /archive/
+layout: page
+renderData:
+  title: Blog Archive
+  description: All content by posted date
+---
+<h1 class="center">{{ renderData.title }}</h1>
+{% set postlist = collections[ 'posts' ] %}
+{% include "components/postlist.njk" %}
