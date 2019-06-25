@@ -5,8 +5,11 @@ renderData:
   title: All Tags
   description: The complete collection of tags in use
 ---
-
+<h1>{{ renderData.title }}</h1>
+<h2>{{ renderData.description }}</h2>
 {% for tag in collections.tagList %}
-  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <h2 class="tag-header"><a href="{{ tagUrl | url }}" class="tag-header__link">{{ tag }}</a></h2>
+  {% set postlist = collections[ tag ] %}
+{% include "components/postlist.njk" %}
 {% endfor %}

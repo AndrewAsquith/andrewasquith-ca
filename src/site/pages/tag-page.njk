@@ -12,7 +12,7 @@ layout: page
 renderData:
   title: Tagged "{{ tag }}"
   description: All posts tagged {{ tag }}
-permalink: /tags/{{ tag }}/
+permalink: /tags/{{ tag | slug }}/
 excludeFromSitemap: true
 ---
 

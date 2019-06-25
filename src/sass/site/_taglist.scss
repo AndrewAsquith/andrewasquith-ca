@@ -20,3 +20,16 @@
 .taglist__tag:hover {
     background-color: $dark-colour;
 }
+
+.tag-header {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    justify-self: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tag-header__link {
+    text-decoration: none;
+}
