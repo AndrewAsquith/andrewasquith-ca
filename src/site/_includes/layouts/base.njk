@@ -22,7 +22,8 @@
     {% include "components/googleanalytics.njk" %}
     {% endif %}
 <footer class="footer">
-        <p class="footer__copyright">&copy; {{site.copyright}}</p>
+        <spanp class="footer__copyright">&copy; {{site.copyright}}</span>
+        <span class="footer_privacy"><a href="{{ site.privacy_url | url}}" class="footer__privacy-link">Privacy Policy</a></span>
 </footer>
 </body>
 </html>
