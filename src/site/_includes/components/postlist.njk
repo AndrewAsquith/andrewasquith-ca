@@ -16,7 +16,7 @@
     {% if post.data.description %}
     <p class="postlist-item__description">{{ post.data.description }}</p>
     {% endif %}
-    <div class="taglist">
+    <div class="postlist-item__taglist">
     {% for tag in post.data.tags %}
       {%- if tag != "posts" -%}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
