@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
     margin-bottom: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
@@ -31,6 +31,16 @@
     order: 1;
     @include breakpoint(large) {
         flex: 0 0 33.333%;
+    }
+}
+
+.postlist-item__header-link {
+    color: $primary-color;
+    &:hover {
+        text-decoration: none;
+    }
+    &:visited {
+        color: $primary-color;
     }
 }
 

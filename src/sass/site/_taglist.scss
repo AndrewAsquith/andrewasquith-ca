@@ -13,23 +13,28 @@
     font-size: 0.8rem;
     font-weight: 200;
     text-decoration: none;
-    background-color: $light-colour;
+    background-color: $light-color;
 
 }
 
 .taglist__tag:hover {
-    background-color: $dark-colour;
+    background-color: $dark-color;
 }
 
 .tag-header {
     margin-top: 1rem;
     padding-bottom: 1rem;
     font-size: 2rem;
+    font-family: sans-serif;
     justify-self: center;
     text-transform: uppercase;
     text-align: center;
+    
 }
 
 .tag-header__link {
-    text-decoration: none;
+    color: $triad-color-one;
+    &:visited {
+        color: $triad-color-two;
+    }
 }

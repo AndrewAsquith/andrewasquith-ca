@@ -10,7 +10,7 @@
       <time class="postlist-item__date" datetime="{{ post.date | isoDate }}">{{ post.date | friendlyDate }}</time>
     </div> <!-- header -->
   <div class="postlist-item__content">
-    <a href="{{post.url | url}}">
+    <a href="{{post.url | url}}" class="postlist-item__header-link">
       <h2 class="postlist-item__title">{{ post.data.title }}</h2>
     </a>
     {% if post.data.description %}
