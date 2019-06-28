@@ -20,6 +20,7 @@ layout: page
  <main>
 </article>
 
+{% if tags.length > 0 %}
 <section class="post__taglist">
 
    <h3>Tagged:</h3>
@@ -32,3 +33,4 @@ layout: page
     {% endfor %}
    </div>
 </section> <!-- taglist -->
+{% endif %}
