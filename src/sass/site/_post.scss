@@ -21,6 +21,10 @@
     padding: 1.3rem;
 }
 
+.post__content img {
+    max-width: 100%
+}
+
 .post__meta {
     padding-left: 1.1rem;
 }
@@ -33,4 +37,8 @@
     padding-left: 1.6rem;
     display: flex;
     align-items: center;
+}
+
+.post__featured-image {
+    max-width: 100%;
 }

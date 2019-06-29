@@ -9,7 +9,7 @@ layout: page
 {% endif %}
 
 {% if image %}
-<img src="{{ image | url }}" alt="{{imageAlt or title}}" title="{{imageAlt or title}}" style="max-width:100%;" />
+<img src="{{ image | url }}" alt="{{imageAlt or title}}" title="{{imageAlt or title}}" class="post__featured-image" />
 {% endif %}
 <time class="post__date" datetime="{{ page.date | isoDate }}">{{ page.date | friendlyDate }}</time>
 
