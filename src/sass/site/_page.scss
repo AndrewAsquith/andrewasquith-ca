@@ -1,7 +1,13 @@
 .page-header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/aa_header_2000_1200.jpg");
     background-position: center;
+    background-repeat: no-repeat;
     margin-bottom: 3.5rem;
+    @include breakpoint(large) {
+        max-width: 2000px;
+        margin-left:auto;
+        margin-right:auto;
+      }
 }
 
 .page-header__branding {
@@ -14,7 +20,6 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
-
 
 .page-title {
     text-align: center;
