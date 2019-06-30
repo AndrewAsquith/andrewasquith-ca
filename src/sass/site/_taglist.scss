@@ -4,22 +4,25 @@
     padding: 0.9rem;
 }
 
-/* An individual tag  */
-.taglist__tag {
+
+.tag {
     border-radius: 0.4rem;
     color: white;
     padding: 0.5rem;
-    margin: 0.1rem;
     font-size: 0.8rem;
     font-weight: 200;
     text-decoration: none;
     background-color: $light-color;
-
 }
 
-.taglist__tag:hover {
+.tag:hover {
     background-color: $dark-color;
 }
+
+.taglist__tag {
+    margin: 0.1rem;
+}
+
 
 .tag-header {
     margin-top: 1rem;
@@ -29,7 +32,6 @@
     justify-self: center;
     text-transform: uppercase;
     text-align: center;
-    
 }
 
 .tag-header__link {

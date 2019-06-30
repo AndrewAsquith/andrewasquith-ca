@@ -5,16 +5,16 @@ title: Home - Andrew Asquith
 description: My little corner of the internet
 ---
 
-    <header class="branding">
-        <img src="/img/aa_header_2000_1200.jpg" class="branding__img" />
-        <div class="branding__navbar">
+    <header class="frontpage-header">
+        <img src="/img/aa_header_2000_1200.jpg" class="frontpage-header__img" />
+        <div class="frontpage-header__navbar">
             {% include "components/navbar.njk" %}
         </div>
-        <div class="branding-container">
+        <div class="frontpage-header__branding branding">
             <h1 class="branding__title">{{site.title}}</h1>
             <h2 class="branding__tagline">{{site.description}}</h2>
         </div>
     </header>
-    <div class="container" id="main">
+    <div class="page-container" id="main">
     </div>
     

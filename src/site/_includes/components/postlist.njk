@@ -7,7 +7,7 @@
         <img class="postlist-item__image" src="{{post.data.image | url }}" />
       </a>
       {% endif %}
-      <time class="postlist-item__date" datetime="{{ post.date | isoDate }}">{{ post.date | friendlyDate }}</time>
+      <time class="postlist-item__date date" datetime="{{ post.date | isoDate }}">{{ post.date | friendlyDate }}</time>
     </div> <!-- header -->
   <div class="postlist-item__content">
     <a href="{{post.url | url}}" class="postlist-item__header-link">
@@ -20,7 +20,7 @@
     {% for tag in post.data.tags %}
       {%- if tag != "posts" -%}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="taglist__tag">{{ tag }}</a>
+      <a href="{{ tagUrl | url }}" class="tag taglist__tag">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
     </div> <!-- taglist -->

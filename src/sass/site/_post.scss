@@ -1,15 +1,15 @@
-.post__header {
+.post-header {
     padding: 1rem;
 }
 
-.post__header-title {
+.post-header__title {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0.5rem;
     width: 100%;
 }
 
-.post__header-description {
+.post-header__description {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -17,11 +17,12 @@
 
 }
 
-.post__content {
+.post-content {
     padding: 1.3rem;
+    //? font-size: 1.24rem;
 }
 
-.post__content img {
+.post-content img {
     max-width: 100%
 }
 
@@ -33,12 +34,12 @@
     color: grey;
 }
 
-.post__taglist {
+.post-taglist {
     padding-left: 1.6rem;
     display: flex;
     align-items: center;
 }
 
-.post__featured-image {
+.post-header__featured-image {
     max-width: 100%;
 }

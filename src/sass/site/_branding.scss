@@ -1,0 +1,24 @@
+.branding {
+    color: white;
+    font-weight: bold;
+}
+
+.branding__title {
+    font-size: 1.4rem;
+    @include breakpoint(medium) {
+        font-size: 1.7rem;
+    }
+    @include breakpoint(large) {
+        font-size: 2rem;
+    }
+}
+
+.branding__tagline {
+    font-size: 1.1rem;
+    @include breakpoint(medium) {
+        font-size: 1.3rem;
+    }
+    @include breakpoint(large) {
+        font-size: 1.5rem;
+    }
+}

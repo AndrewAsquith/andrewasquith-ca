@@ -1,15 +1,15 @@
 ---
 layout: base
 ---
-<header class="page__header">
+<header class="page-header">
 {% include "components/navbar.njk" %}
-    <div class="page__branding-container">
+    <div class="page-header__branding branding">
         <h1 class="branding__title">{{site.title}}</h1>
         <h2 class="branding__tagline">{{site.description}}</h2>
     </div>
 </header>
-<div class="container">
-    <main class="page__content">
+<div class="page-container">
+    <main class="page-content">
         {{ content | safe }}
     </main>
 </div>

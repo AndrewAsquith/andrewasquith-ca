@@ -1,0 +1,16 @@
+.read-more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+}
+
+.read-more__link { 
+    border-radius: 0.6rem;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+    text-decoration: none;
+    background-color: $complimentary-color;
+}

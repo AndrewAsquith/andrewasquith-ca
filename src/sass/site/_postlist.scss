@@ -26,7 +26,7 @@
 }
 
 /* container for image (if present) and date published 
- we need this for how we want to alter layouts on large screens
+ need this for how I want to alter layouts on large screens
  */
 .postlist-item__header {
     display: flex;
@@ -40,7 +40,6 @@
 .postlist-item__header-link {
     color: $primary-color;
     &:hover {
-        
         text-decoration: none;
     }
     &:visited {
@@ -71,17 +70,13 @@
 
 /* the date published for the postlist */
 .postlist-item__date {
-
     padding-top: 0.9rem;
-    color: grey;
     align-self: flex-start;
-    font-size: 1.1rem;
     order: 2;
 
     @include breakpoint(large) {
         order: 1;
         align-self: flex-end;
-
     }
 }
 
