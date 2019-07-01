@@ -1,20 +1,12 @@
 ---
-layout: base
+layout: page
 permalink: index.html
 title: Home - Andrew Asquith
-description: My little corner of the internet
 ---
 
-    <header class="frontpage-header">
-        <img src="/img/aa_header_2000_1200.jpg" class="frontpage-header__img" />
-        <div class="frontpage-header__navbar">
-            {% include "components/navbar.njk" %}
-        </div>
-        <div class="frontpage-header__branding branding">
-            <h1 class="branding__title">{{site.title}}</h1>
-            <h2 class="branding__tagline">{{site.description}}</h2>
-        </div>
-    </header>
-    <div class="page-container" id="main">
-    </div>
-    
+<h1 class="page-title">Recent Posts</h1>
+{% set postlist = collections[ 'posts' ] | head(-3) %}
+{% include "components/postlist.njk" %}
+<div class="read-more">
+<a href="{{ '/archive/' | url }}" class="read-more__link">See All Posts</a>
+</div>

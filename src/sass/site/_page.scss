@@ -1,9 +1,17 @@
 .page-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/aa_header_2000_1200.jpg");
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/aa_header_768_461.jpg");
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 3.5rem;
+    @include breakpoint(small) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/aa_header_992_595.jpg");
+    }
+    @include breakpoint(medium) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/aa_header_1200_720.jpg");
+    }
     @include breakpoint(large) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/aa_header_2000_1200.jpg");
         max-width: 2000px;
         margin-left:auto;
         margin-right:auto;
@@ -13,6 +21,7 @@
 .page-header__branding {
     padding-top: 6rem;
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
     padding-bottom: 2rem;
 }
 
