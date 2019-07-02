@@ -68,6 +68,43 @@ module.exports = function(config) {
     //pass through files
     //config.addPassthroughCopy('./src/site/robots.txt');
 
+    //markdown-it customization
+    var responsiveOptions = { responsive: {
+        'srcset': {
+          '*': [ {
+            width: 480,
+            rename: {
+              suffix: '-small'
+            }
+          }, {
+            width: 960,
+            rename: {
+              suffix: '-medium'
+            }
+          }, {
+            width: 1440,
+            rename: {
+              suffix: '-large'
+            }
+          }, {
+            width: 1920,
+            rename: {
+              suffix: '-full'
+            }
+          }
+         ]
+        }, 'sizes': {
+
+            '*': '90vw'
+      
+          }
+      }
+    };
+    let markdownIt = require("markdown-it")({
+        html: true
+    }).use(require('@gerhobbelt/markdown-it-responsive'), responsiveOptions);
+    
+    config.setLibrary("md", markdownIt);
 
     // Base Config
     return {
