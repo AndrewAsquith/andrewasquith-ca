@@ -4,7 +4,7 @@
     <div class="postlist-item__header">
       {%if post.data.image %}
       <a href="{{post.url | url }}">
-        <img class="postlist-item__image" src="{{post.data.image | url }}" />
+        <img class="postlist-item__image" src="{{post.data.image | url }}" srcset="{{ post.data.image | url | srcset }}" sizes="(min-width: 1200px) 30vw, 90vw"/>
       </a>
       {% endif %}
       <time class="postlist-item__date date" datetime="{{ post.date | isoDate }}">{{ post.date | friendlyDate }}</time>

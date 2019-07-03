@@ -18,6 +18,7 @@ module.exports = function(config) {
     config.addFilter('friendlyDate', require('./_11ty/filters/friendly-date.js'));
     config.addFilter('isoDate', require('./_11ty/filters/iso-date.js'));
     config.addFilter('head', require('./_11ty/filters/head.js'));
+    config.addFilter('srcset', require('./_11ty/filters/image-srcset'));
     //config.addFilter('imageUrl', require('./_11ty/filters/image-url.js'));
 
     //Minify HTML (when ELEVENTY_ENV is production)
@@ -87,10 +88,7 @@ module.exports = function(config) {
               suffix: '-large'
             }
           }, {
-            width: 1920,
-            rename: {
-              suffix: '-full'
-            }
+            width: 1920
           }
          ]
         }, 'sizes': {
