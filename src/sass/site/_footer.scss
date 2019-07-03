@@ -9,12 +9,21 @@
 
 .footer__copyright {
   color: $dark-color;
-  font-size: 0.6rem;
+  //font-size: 0.6rem;
   padding: 0.5rem;
 }
 
 .footer__privacy-link {
   color: $dark-color;
-  font-size: 0.6rem;
+  //font-size: 0.6rem;
   padding: 0.5rem;
+}
+
+.footer__social-link {
+  color: $dark-color;
+  padding: 0.5rem;
+}
+
+.social-icon {
+  height: 1rem;
 }
