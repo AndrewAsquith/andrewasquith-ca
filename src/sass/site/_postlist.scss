@@ -21,6 +21,7 @@
 
     @include breakpoint(large) {
         flex-direction: row;
+        margin-bottom: 3rem;
     }
 
 }

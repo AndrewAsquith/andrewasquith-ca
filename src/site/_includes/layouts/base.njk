@@ -22,14 +22,14 @@
     {% include "components/googleanalytics.njk" %}
     {% endif %}
 <footer class="footer">
-        <spanp class="footer__copyright">&copy; {{site.copyright}}</span>
-        <span class="footer__privacy"><a href="{{ site.privacy_url | url}}" class="footer__privacy-link">Privacy Policy</a></span>
+        <span class="footer__social footer__item">
         <a href="https://goaa.ca/twitter"><img src="{{ '/img/svg/twitter.svg' | url }}" class="social-icon" /></a>
         <a href="https://goaa.ca/linkedin"><img src="{{ '/img/svg/linkedin.svg' | url }}" class="social-icon" /></a>
         <a href="https://goaa.ca/github"><img src="{{ '/img/svg/github.svg' | url }}" class="social-icon" /></a>
         <a href="{{ site.feed | url | absoluteUrl(site.url) }}"><img src="{{ '/img/svg/rss.svg' | url }}" class="social-icon" /></a>
-
-
+        </span>
+        <span class="footer__copyright footer__item">&copy; {{site.copyright}}</span>
+        <span class="footer__privacy footer__item"><a href="{{ site.privacy_url | url}}" class="footer__privacy-link">Privacy Policy</a></span>
 </footer>
 </body>
 </html>
