@@ -1,0 +1,23 @@
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-table__cell {
+    border: 1px solid #ddd;
+    text-align:center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 33.3%;
+}
+
+.data-table__header {
+    background-color: $primary-color;
+    color: white;
+}
+
+.data-table__subheader {
+    background-color: $light-color;
+    color: white;
+
+}
