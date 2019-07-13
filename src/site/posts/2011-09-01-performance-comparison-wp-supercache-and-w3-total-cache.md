@@ -1,8 +1,13 @@
 ---
-layout: post
 title: "Performance Comparison: WP Super Cache and W3 Total Cache"
+description: A look at the gains to be had from using WP Super Cache and W3 Total Cache on WordPress
 date: 2011-09-01
-tags: ["Caching","Performance","Technology","WordPress"]
+permalink: /posts/performance-comparison-wp-supercache-and-w3-total-cache/
+tags: 
+ - Caching
+ - Performance
+ - Technology
+ - WordPress
 ---
 
 ## The Setup
