@@ -13,11 +13,14 @@
 <body>
     {{ content | safe }}
 
+{# No JS required!
+
     {% if buildconfig.env == 'production' %}
     <script async src="{{ '/js/site.v' + buildconfig.version + '.min.js' | url }}"></script>
     {% else %}
     <script async src="{{ '/js/site.v' + buildconfig.version + '.js' | url }}"></script>
     {% endif %}
+#}
     {% if buildconfig.env == 'production' and (analytics.google) %}
     {% include "components/googleanalytics.njk" %}
     {% endif %}
