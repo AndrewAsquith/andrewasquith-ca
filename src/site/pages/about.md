@@ -11,9 +11,14 @@ I'm a random Canadian living south of Ottawa near the St. Lawrence River. I spen
 
 ## About this site
 
-I'm trying to contain most of my content that would be of a interest to a technology professional limited to my [professional site](https://www.andrewasquith.com), but there will definitely be some technology that I end up posting about here. 
 
-Most other content will be whatever is of interest to me. I have a series of posts of things to do in Ontario, and a series of adventures of "Toys at Work"
+I'm trying to contain most of the content that would be of a interest to a technology professional limited to my [professional site](https://www.andrewasquith.com), but there will definitely be some technology that I end up posting about here. 
+
+Most other content will be whatever is of interest to me and hopefully you. I have a series of posts of things to do in Ontario, and a series of adventures of "Toys at Work"
+
+Most content and imagery is mine and may not be reproduced or reused without my permission. 
+
+The social icons in the footer are courtesy of [Unicons by Iconscout](https://iconscout.com/unicons).
 
 ## About Toys at Work
 
