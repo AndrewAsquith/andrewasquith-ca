@@ -12,10 +12,10 @@ layout: page
 <img src="{{ image | url }}" alt="{{imageAlt or title}}" title="{{imageAlt or title}}" class="post-header__featured-image" 
    srcset="{{ image | url | srcset }}" sizes="90vw"  />
 {% endif %}
-<time class="date" datetime="{{ page.date | isoDate }}">{{ page.date | friendlyDate }}</time>
 
 </header>
 <article class="post-content">
+<time class="date" datetime="{{ page.date | isoDate }}">{{ page.date | friendlyDate }}</time>
  <main>
     {{ content | safe }}
  <main>
