@@ -9,6 +9,7 @@
 
 /* container for a single post in the list */
 .postlist-item {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -30,12 +31,17 @@
  need this for how I want to alter layouts on large screens
  */
 .postlist-item__header {
+    overflow:hidden;
     display: flex;
     flex-direction: column;
     order: 1;
     @include breakpoint(large) {
         flex: 0 0 33.333%;
     }
+}
+
+.postlist-item__header-image-link {
+    overflow:hidden;
 }
 
 .postlist-item__header-link {
@@ -62,6 +68,7 @@
 
 /* featured image for post in a postlist */
 .postlist-item__image {
+    overflow:hidden;
     max-width: 100%;
     order: 1;
     @include breakpoint(large) {
