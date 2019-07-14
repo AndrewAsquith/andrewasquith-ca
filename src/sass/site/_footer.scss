@@ -23,9 +23,13 @@
 }
 
 .footer__privacy-link {
-  color: $dark-color;
+  color: $primary-color;
   //font-size: 0.6rem;
   padding: 0.5rem;
+}
+
+.footer__privacy-link:hover {
+  color: $dark-color;
 }
 
 .footer__social-link {
@@ -33,7 +37,11 @@
 }
 
 .social-icon {
-  fill: $dark-color;
+  fill: $primary-color;
   height: 2rem;
   width: 2rem;
+}
+
+.social-icon:hover {
+  fill: $dark-color;
 }
