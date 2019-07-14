@@ -11,6 +11,7 @@
  
 }
 
+
 .footer__item {
   margin-top: 1rem;
 }
@@ -28,10 +29,11 @@
 }
 
 .footer__social-link {
-  color: $dark-color;
   padding: 0.5rem;
 }
 
 .social-icon {
+  fill: $dark-color;
   height: 2rem;
+  width: 2rem;
 }
