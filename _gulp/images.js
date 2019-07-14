@@ -96,5 +96,6 @@ gulp.task('images', function images() {
             })    
         ).pipe(gulp.dest(config.paths.dist + '/img/posts')),
         gulp.src(config.paths.images + '/svg/*', {base: config.paths.images}).pipe(gulp.dest(config.paths.dist + '/img')),
+        gulp.src(config.paths.images + '/favicon/favicon.ico').pipe(gulp.dest(config.paths.dist)),
         gulp.src(config.paths.images + '/favicon/*', {base: config.paths.images}).pipe(gulp.dest(config.paths.dist + '/img')));
 });
