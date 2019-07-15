@@ -1,5 +1,4 @@
 ---
-layout: page
 permalink: /privacy-policy/index.html
 title: Privacy Policy
 description: How I use data.
