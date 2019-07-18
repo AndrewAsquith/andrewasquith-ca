@@ -4,7 +4,7 @@ Powered by [11ty](https://11ty.io) and leveraging [Gulp](https://gulpjs.com)
 
 ## Setup
 
-Run npm install to install 11ty, gulp and dependencies
+Clone the repository and run npm install to install 11ty, gulp and dependencies
 > npm install
 
 
@@ -62,5 +62,12 @@ There's a whole bunch of Meta/SEO related shortcodes for:
 
 See [meta.njk](src/site/_includes/components/meta.njk) for example usage.
 
+
 Images in markdown are created with srcset through the @gerhobbelt/markdown-it-responsive plugin.
  - At the moment, setting the sizes is a manual process. Dimensions would need to be changed in the css breakpoints, the markdown-it-responsive config and the gulp-responsive config so that they're all in alignment. 
+
+
+There's a privacy-policy included, which will include a section relating to google analytics if it's configured.
+
+
+There's a .htaccess file incluced which will setup the 404 error page, but it also contains redirects for my previous wordpress powered blog, so you probably want to remove those.
