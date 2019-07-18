@@ -4,13 +4,13 @@ Powered by [11ty](https://11ty.io) and leveraging [Gulp](https://gulpjs.com)
 
 ## Setup
 
-Run 
+Run npm install to install 11ty, gulp and dependencies
 > npm install
 
-to pull down all the dependencies
 
 ### Build Configuration
-See .env.sample for an example
+
+Setup .env - see [.env.sample](.env.sample) for an example
 
 VERSION - needs to be set as it's used for lazy cache busting by renaming the css and js on build
 
