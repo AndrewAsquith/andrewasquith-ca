@@ -8,9 +8,10 @@ tags:
  - eastern ontario
  - things to do
  - national historic site
+ - museum
 ---
 
-The [Railway Museum of Eastern Ontario](http://rmeo.org/ "Railway Museum of Eastern Ontario") is located in Smiths Falls, just outside of Ottawa. The museum is deemed a National Historic Site and the staff are friendly, knowledgeable and enthusiastic. 
+The [Railway Museum of Eastern Ontario](http://rmeo.org/ "Railway Museum of Eastern Ontario") is located in Smiths Falls, just outside of Ottawa. The museum is deemed a National Historic Site and the staff are friendly, knowledgeable and enthusiastic. Depending on how much you love trains and whether or not you manage to go for a ride, you can expect to spend anywhere from an hour to three here.
 
 
 <div class="google-map">
