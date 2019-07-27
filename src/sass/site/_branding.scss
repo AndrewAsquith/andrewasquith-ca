@@ -5,6 +5,7 @@
 
 .branding__title {
     font-size: 1.4rem;
+    margin-bottom: 0.67rem;
     @include breakpoint(medium) {
         font-size: 1.7rem;
     }
@@ -15,6 +16,7 @@
 
 .branding__tagline {
     font-size: 1.1rem;
+    margin-bottom: 0.67rem;
     @include breakpoint(medium) {
         font-size: 1.3rem;
     }
