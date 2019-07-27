@@ -24,7 +24,7 @@ layout: page
 {% if tags.length > 0 %}
 <section class="post-taglist">
 
-   <h3>Tagged:</h3>
+   <div class="post-taglist__header">Tagged:</div>
    <div class="taglist">
     {% for tag in tags %}
       {%- if tag != "posts" -%}
