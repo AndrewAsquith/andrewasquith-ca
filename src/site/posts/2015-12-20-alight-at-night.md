@@ -27,8 +27,7 @@ The entirity of Upper Canada Vilage's fences, buildings and trees are adorned in
 
 The walk through the village normally takes about an hour to complete, however there is an accessibility night in which the grounds are open to those with mobility challenges to actually drive their vehicles through and still be able to enjoy the display of lights.
 
-
-The walk through generally takes about an hour to complete, however the facilities are open during that time, so you can enjoy a meal at any of the three restaurants, or just get a quick hot chocolate along the way.
+The facilities are also open during that event, so you can enjoy a meal at any of the three restaurants, or just get a quick hot chocolate along the way. Getting a dinner reservation is a good way to ensure you're there before the majority of the crowds.
 
 
 ![Hot Chocolate and more](/img/posts/alight-at-night/alight-at-night-4.jpg "Hot Chocolate and more")
@@ -42,6 +41,5 @@ Aside from walking through yourself, the option to hop on a horse-drawn wagon is
 
 There is also a train ride that can be had as part of your price of admission, which departs every half hour for a short ride around the grounds providing an alternative view of all the lights.
 
-
-Admission is in line with what regular admission to Upper Canada Village costs, although slightly reduced, with a family of four being approximately $50, although children 4 and under are free. For more information, see the [website](https://www.uppercanadavillage.com/events/alight-at-night/ "Alight at Night webpage")
+Admission is in line with what regular admission to Upper Canada Village costs, although slightly reduced. A family of four will cost approximately $50, but children 4 and under are free. For more information about the event, or to get tickets, visit the [website](https://www.uppercanadavillage.com/events/alight-at-night/ "Alight at Night webpage").
 
