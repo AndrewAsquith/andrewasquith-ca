@@ -14,7 +14,7 @@ Dinosaurs are a favourite of many children and adult alike, and the [Museum of N
 
 
 <div class="google-map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.8329056339808!2d-75.69069868457166!3d45.41270897910031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce045363cc3eed%3A0xb40ffd8e8749c178!2sCanadian+Museum+of+Nature+%2F+Mus%C3%A9e+canadien+de+la+nature!5e0!3m2!1sen!2sca!4v1563802713545!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.8329056339808!2d-75.69069868457166!3d45.41270897910031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce045363cc3eed%3A0xb40ffd8e8749c178!2sCanadian+Museum+of+Nature+%2F+Mus%C3%A9e+canadien+de+la+nature!5e0!3m2!1sen!2sca!4v1563802713545!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 

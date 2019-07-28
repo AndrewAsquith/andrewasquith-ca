@@ -14,7 +14,7 @@ The Bushplane Museum, or more correctly, the [Canadian Bushplane Heritage Center
 
 
 <div class="google-map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.172839104285!2d-84.32595068453229!3d46.50468897912699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d36384f25d891a7%3A0xa40df20b4143ba54!2sCanadian+Bushplane+Heritage+Centre!5e0!3m2!1sen!2sca!4v1563716329708!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2746.172839104285!2d-84.32595068453229!3d46.50468897912699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d36384f25d891a7%3A0xa40df20b4143ba54!2sCanadian+Bushplane+Heritage+Centre!5e0!3m2!1sen!2sca!4v1563716329708!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 

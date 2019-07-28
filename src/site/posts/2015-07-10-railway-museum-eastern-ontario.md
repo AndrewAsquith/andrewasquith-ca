@@ -15,7 +15,7 @@ The [Railway Museum of Eastern Ontario](http://rmeo.org/ "Railway Museum of East
 
 
 <div class="google-map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2826.0651255818393!2d-76.030581684664!3d44.90167097909829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd88bca979bed3%3A0xffff9318c0980dc7!2sRailway+Museum!5e0!3m2!1sen!2sca!4v1563710668297!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2826.0651255818393!2d-76.030581684664!3d44.90167097909829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd88bca979bed3%3A0xffff9318c0980dc7!2sRailway+Museum!5e0!3m2!1sen!2sca!4v1563710668297!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 

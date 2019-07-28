@@ -14,7 +14,7 @@ Thomas the Tank Engine is a long standing staple of many a childhood. Occassiona
 
 
 <div class="google-map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.9674206271097!2d-75.71138928457104!3d45.430158079100515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04f12010ed2f%3A0xaa68c9d48979fcc4!2sCanadian+Museum+of+History!5e0!3m2!1sen!2sca!4v1563799026766!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.9674206271097!2d-75.71138928457104!3d45.430158079100515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce04f12010ed2f%3A0xaa68c9d48979fcc4!2sCanadian+Museum+of+History!5e0!3m2!1sen!2sca!4v1563799026766!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 

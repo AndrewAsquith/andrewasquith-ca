@@ -13,7 +13,7 @@ The Landon Bay Centre is part of the [Frontenac Arch Biosphere](https://www.fron
 
 
 <div class="google-map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2852.7836969060354!2d-76.07594168460903!3d44.35549447910351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd45a8d7020be9%3A0xffc58872b61dccc2!2sLandon+Bay+Centre!5e0!3m2!1sen!2sca!4v1563719451840!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2852.7836969060354!2d-76.07594168460903!3d44.35549447910351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd45a8d7020be9%3A0xffc58872b61dccc2!2sLandon+Bay+Centre!5e0!3m2!1sen!2sca!4v1563719451840!5m2!1sen!2sca" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 

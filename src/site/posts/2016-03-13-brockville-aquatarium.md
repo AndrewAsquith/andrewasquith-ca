@@ -12,7 +12,7 @@ tags:
 The [Aquatarium](https://aquatarium.ca "Aquatarium") at Tall Ships Landing is an indoor aquarium and discovery centre located in Brockville.
 
 <div class="google-map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841.4564171845445!2d-75.68486278460091!3d44.58768947910039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd0f76acffc2af%3A0x8a57e5f79c94daa7!2sThe+Aquatarium+at+Tall+Ships+Landing!5e0!3m2!1sen!2sca!4v1563794096982!5m2!1sen!2sca"  frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841.4564171845445!2d-75.68486278460091!3d44.58768947910039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccd0f76acffc2af%3A0x8a57e5f79c94daa7!2sThe+Aquatarium+at+Tall+Ships+Landing!5e0!3m2!1sen!2sca!4v1563794096982!5m2!1sen!2sca"  frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
 
 The Aquatarium is a fairly new addition to town of Brockville, with it's grand opening in 2016. The facility is spacious, clean and contains lots of things to see and do. Admission to the Aquatarium will run about $60 for a family of four, however many local libraries have passes that can be borrowed that considerably reduce that rate. Most families can expect to spend a couple of hours here, possibly longer if they let their kids spend copious amounts of time at certain exhibits.
