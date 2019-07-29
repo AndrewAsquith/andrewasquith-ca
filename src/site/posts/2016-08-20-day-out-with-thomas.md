@@ -1,5 +1,5 @@
 ---
-title: A Day out with Thomas!
+title: A Day out with Thomas
 description: The classic Thomas the Tank Engine, up close and personal.
 permalink: /posts/day-out-with-thomas/
 image: /img/posts/day-out-with-thomas/day-out-with-thomas-1.jpg

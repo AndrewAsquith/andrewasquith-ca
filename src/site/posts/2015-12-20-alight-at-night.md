@@ -1,5 +1,5 @@
 ---
-title: Alight at Night!
+title: Alight at Night
 description: A celebration of lights at Upper Canada Village.
 permalink: /posts/alight-at-night/
 image: /img/posts/alight-at-night/alight-at-night-1.jpg
