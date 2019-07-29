@@ -29,7 +29,6 @@ The main attraction of the park is the life size dinosaurs and other creatures t
 ![Fossil Dig](/img/posts/prehistoric-world/prehistoric-world-3.jpg "Fossil Dig")
 
 
-
 The walk through is only about a kilometre, and quite is easy.  Even with copious amounts of picture taking and dinosaur hugging, it is likely to only take about an hour to see the over 50 dinosaurs. You're welcome to keep walking around after admission, however your children will likely have spotted the fossil dig site and want to spend some time there. Pictured above, it's basically a giant sand box with (fake) fossils in it for the children to dig up. Many children end up spending as much time in the sand as they do walking around. 
 
 

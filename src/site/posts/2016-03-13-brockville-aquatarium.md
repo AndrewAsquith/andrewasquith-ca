@@ -7,6 +7,7 @@ date: 2016-03-13
 tags:
  - eastern ontario
  - things to do
+ - brockville
 ---
 
 The [Aquatarium](https://aquatarium.ca "Aquatarium") at Tall Ships Landing is an indoor aquarium and discovery centre located in Brockville.

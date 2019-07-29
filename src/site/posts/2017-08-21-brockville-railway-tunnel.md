@@ -7,8 +7,8 @@ date: 2017-08-21
 tags:
  - eastern ontario
  - things to do
+ - brockville
 ---
-
 
 The [Brockville Railway Tunnel](https://www.brockvillerailwaytunnel.com/ "Brockville Railway Tunnel") is the site of the first railway tunnel in Canada, circa 1860. The tunnel is a fairly new attraction having been sealed for a considerable amount of time before the decision to restore it was made. It opened for Canada's 150th birthday in 2017.
 

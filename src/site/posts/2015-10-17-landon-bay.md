@@ -7,6 +7,7 @@ date: 2015-10-17
 tags:
  - eastern ontario
  - things to do
+ - st lawrence river
 ---
 
 The Landon Bay Centre is part of the [Frontenac Arch Biosphere](https://www.frontenacarchbiosphere.ca/explore/walking-and-hiking-trails/hiking-trails/landon-bay-centre "Frontenac Arch Biosphere"). The centre itself is a 225 Acre Ecological Reserve just outside the town of Gananoque.

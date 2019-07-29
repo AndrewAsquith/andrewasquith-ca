@@ -7,11 +7,10 @@ date: 2016-08-20
 tags:
  - eastern ontario
  - things to do
- - thomas-the-tank-engine
+ - thomas the tank engine
 ---
 
 A Day Out with Thomas is an annual, touring event that visits heritage railway sites across Canada and the United States. In Ontario, the locations are the [York-Durham Heritage Railway](https://ydhr.ca "York-Durham Heritage Railway") in Uxbridge and the [St. Thomas-Elgin Memorial Centre](https://www.stthomas.ca/living_here/parks__recreation_and_property_management/memorial_arena_and_auditorium "St. Thomas Memorial Centre") in St. Thomas, making the event accessible within a couple of hours to those on either side of Toronto.
-
 
 Tickets to the event are $25 Canadian a person, for anyone over 2 years old, meaning most families of four will be spending $100. The event happens rain or shine, however the activities themselves are fairly well covered and event goers are generally protected from the elements.
 

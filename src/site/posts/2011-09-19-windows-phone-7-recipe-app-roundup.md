@@ -14,7 +14,9 @@ In this post I take a look at the four big name recipe apps for windows phone 7.
 ### AllRecipes.com Dinner Spinner
 First up, "AllRecipes.com Dinner Spinner". This is one of the most popular apps in the marketplace at the time of this writing, and is deserving of it's popularity.
 
+
 ![AllRecipes.com Dinner Spinner](/img/posts/recipe-app-roundup/all-recipes-app.jpg "AllRecipes.com Dinner Spinner and Details")
+
 
 As the name suggests, it incorporates the AllRecipes.com Dinner Spinner which is a fun take on the "standard" recipe search (I have <an ingredient> and <some amount of time> to make <breakfast/lunch/dinner>). You're able to select your dish type, the main ingredient and time, or just hit the "spin" button and let the spinner work it's magic. If you'd prefer to search for recipes you can filter the results by dietary need (e.g. vegetarian, no wheat, low carbs etc) which is handy for those that need to watch what they eat.
 
@@ -28,7 +30,9 @@ My only complaint with the AllRecipes.com Dinner Spinner app is that it feels sl
 
 The second app on my list is "Betty Crocker", a name I'm sure some will recognize.
 
+
 ![Betty Crocker Meal Helper](/img/posts/recipe-app-roundup/betty-crocker-app.jpg "Betty Crocker Meal Helper and Recipe Details")
+
 
 As most would expect, it too contains a tool to help in deciding what to make. Betty Crocker's variation asks for two ingredients and the meal type. There is also a "surprise me" option which will deliver a random meal suggestion to you.
 
@@ -44,7 +48,9 @@ At the time of writing this, the web service appears to be down or they've chang
 
 The third app on my list is "170,000+ Recipes - BigOven.com".
 
+
 ![BigOven App](/img/posts/recipe-app-roundup/big-oven-app.jpg "BigOven My Kitchen and Recipe Scan")
+
 
 BigOven's take on "what to make" comes in the form of leftover usage, in which you can add up three ingredients and get suggested recipes for. The search results include an image, the rating and what category it falls into. You can also just search the recipes, optionally filtering by category or browse recent highly reviewed recipes. The recipes are shown across three panels, an overview, which contains the ingredients and preparation information, photos of the dish and nutrional information. You can also share recipes via email, twitter or facebook.
 
@@ -60,7 +66,9 @@ The UI can always be improved upon in the future by an update, and with a pro me
 
 The final app on my list is "Epicurious".
 
+
 ![Epicurious Recipe Search and Shopping List](/img/posts/recipe-app-roundup/epicurious-app.jpg "Epicurious Recipe Search and Shopping List")
+
 
 There's not really a "what to make" analog in Epicurious, however, the main screen displays a list of different types of meals (e.g. fast breakfasts, lunches kids love, vegetarian mains) allowing you to quickly jump to a list of recipes matching that criteria.
 

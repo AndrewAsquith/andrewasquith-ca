@@ -7,6 +7,7 @@ date: 2016-09-24
 tags:
  - eastern ontario
  - things to do
+ - st lawrence river
 ---
 
 The [St. Lawrence Parks Commission](http://http://www.stlawrenceparks.com/ "St. Lawrence Parks Commission")  have a series of three [campgrounds](http://www.stlawrenceparks.com/camping/campgrounds/long-sault-parkway/ "Long Sault Parkway Campgrounds") along the Long Sault Parkway. The parkway itself runs amongst 11 small islands that are made from the high points of land which survived the flooding of the seaway. The water is fairly well sheltered from the larger St. Lawrence waterway, making it a popular spot for divers and boaters.
