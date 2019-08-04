@@ -4,8 +4,8 @@ description: CIBC references Windows Phone in their mobile banking page, is an a
 date: 2011-11-21
 permalink: /posts/is-cibc-working-on-an-app-for-windows-phone/
 tags: 
- - Technology
- - Windows Phone
+ - technology
+ - windows phone
 ---
 
 This post was originally going to look at the "big five" Canadian banks offerings for mobile devices; specifically their lack of native apps on Windows Phone and how their mobile sites compare. I may still write that article, but while I was researching a bit of small print on the CIBC website caught my eye. 

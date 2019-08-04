@@ -5,8 +5,8 @@ date: 2011-09-19
 permalink: /posts/windows-phone-7-recipe-app-roundup/
 image: /img/posts/recipe-app-roundup/recipe-apps-header.jpg
 tags: 
- - App Reviews
- - Windows Phone
+ - app reviews
+ - windows phone
 ---
 
 In this post I take a look at the four big name recipe apps for windows phone 7.

@@ -4,6 +4,7 @@ description: An aquarium and discovery centre in Brockville.
 permalink: /posts/brockville-aquatarium/
 image: /img/posts/brockville-aquatarium/aquatarium-2.jpg
 date: 2016-03-13
+isFeatured: true
 tags:
  - eastern ontario
  - things to do

@@ -3,6 +3,7 @@ title: Geocaching
 description: GPS Assisted Treasure Hunting.
 permalink: /posts/geocaching/
 image: /img/posts/geocaching/geocaching-1.jpg
+isFeatured: true
 date: 2018-09-23
 tags:
  - eastern ontario

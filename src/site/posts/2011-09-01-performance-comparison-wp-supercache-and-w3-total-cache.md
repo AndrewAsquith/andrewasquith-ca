@@ -4,10 +4,10 @@ description: A look at the gains to be had from using WP Super Cache and W3 Tota
 date: 2011-09-01
 permalink: /posts/performance-comparison-wp-supercache-and-w3-total-cache/
 tags: 
- - Caching
- - Performance
- - Technology
- - WordPress
+ - caching
+ - performance
+ - technology
+ - wordpress
 ---
 
 ## The Setup

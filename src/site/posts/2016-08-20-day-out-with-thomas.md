@@ -4,6 +4,7 @@ description: The classic Thomas the Tank Engine, up close and personal.
 permalink: /posts/day-out-with-thomas/
 image: /img/posts/day-out-with-thomas/day-out-with-thomas-1.jpg
 date: 2016-08-20
+isFeatured: true
 tags:
  - eastern ontario
  - things to do

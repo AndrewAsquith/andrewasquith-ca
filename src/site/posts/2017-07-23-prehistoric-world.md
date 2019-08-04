@@ -4,6 +4,7 @@ description: A hidden dinosaur refuge in Morrisburg.
 permalink: /posts/prehistoric-world/
 image: /img/posts/prehistoric-world/prehistoric-world-2.jpg
 date: 2017-07-23
+isFeatured: true
 tags:
  - eastern ontario
  - things to do

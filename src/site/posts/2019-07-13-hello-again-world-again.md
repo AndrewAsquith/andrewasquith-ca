@@ -3,6 +3,7 @@ title: Hello again world! Again!
 description: I'm back, this time running a site built with 11ty.
 permalink: /posts/hello-again-world-again/
 date: 2019-07-28
+isFeatured: true
 ---
 
 Hello Again World! Again!
