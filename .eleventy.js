@@ -62,12 +62,10 @@ module.exports = function(config) {
     config.addCollection("posts", function(collection) {
         return collection.getFilteredByGlob("**/posts/*.md");
       });
-      
+ 
     config.addCollection("tagList", require("./_11ty/helpers/getTagList.js"));
 
-
-    //pass through files
-    //config.addPassthroughCopy('./src/site/robots.txt');
+    config.addCollection('featuredPosts', require("./_11ty/helpers/getFeaturedPosts.js"));
 
     //markdown-it customization
     var responsiveOptions = { responsive: {

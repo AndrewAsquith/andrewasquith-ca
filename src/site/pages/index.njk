@@ -3,8 +3,8 @@ permalink: index.html
 title: Home
 ---
 
-<h1 class="page-title">Recent Posts</h1>
-{% set postlist = collections[ 'posts' ] | head(-5) %}
+<h1 class="page-title">Featured Posts</h1>
+{% set postlist = collections[ 'featuredPosts' ] | head(-5) %}
 {% include "components/postlist.njk" %}
 <div class="read-more">
 <a href="{{ '/archive/' | url }}" class="read-more__link">See All Posts</a>
