@@ -11,7 +11,7 @@ I recently switched this blog [WordPress](https://wordpress.org "WordPress") to 
 
 ## The Why
 
-I don't do development of any kind full time, and I like that way. However, I do like to keep up on modern technologies and trends, and it was about time that I actually did something with this site. I'd drafted a number of posts over the years, but never got around to finalizing and publishing them, so I set myself a goal to both experiment with something new and get those posts out the door at the same time.
+I don't do development of any kind full time, and I like it that way. However, I do like to keep up on modern technologies and trends, and it was about time that I actually did something with this site. I'd drafted a number of posts over the years, but never got around to finalizing and publishing them, so I set myself a goal to both experiment with something new and get those posts out the door at the same time.
 
 WordPress has long been the defacto blogging platform for most people. There are some fairly popular competitors such as [Drupal](https://www.drupal.org "Drupal"), but it's still the most well known and widely used, and I even I still run it elsewhere. Recent years have seen the rise of hosted services to get you publishing faster and without the need to administer your own server. Personally, I like administering my own server, so one of my requirements was that it continue to be self-hosted. I'd also already run Drupal for many years, and wanted to try something completely new. 
 
@@ -72,4 +72,4 @@ The new iteration doesn't use any client side script (except for Google Analytic
 
 Eleventy and it's static site generating kin are definitely not going to be for everyone. WordPress and other CMS solutions will continue to hold the majority of the market share when it comes to publishing platforms, mostly because people don't care what's underneath, as long as they can put their content out easily.
 
-I on the other hand, love tinkering, love the absolute control I have over what's rendered, and am quite comfortable with the command line so at least for now, I'm sticking with it. I appear to be in good company as well, as several notable sites are leveraging Eleventy such including Google's [web.dev](https://web.dev/ "Web.dev") and CERN's [WorldWideWeb Rebuild](https://worldwideweb.cern.ch/ "CERN's WorldWideWeb Rebuild").
+I on the other hand, love tinkering, love the absolute control I have over what's rendered, and am quite comfortable with the command line, so at least for now, I'm sticking with it. I appear to be in good company as well, as several notable sites are leveraging Eleventy such including Google's [web.dev](https://web.dev/ "Web.dev") and CERN's [WorldWideWeb Rebuild](https://worldwideweb.cern.ch/ "CERN's WorldWideWeb Rebuild").
