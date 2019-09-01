@@ -7,7 +7,7 @@ date: 2016-04-16
 tags:
  - eastern ontario
  - things to do
- - Thomas the Tank Engine
+ - thomas the tank engine
 ---
 
 Thomas the Tank Engine is a long standing staple of many a childhood. Occassionally Thomas will have exhibits travelling to various musuems across the country. In 2016, one such exhibit was at the Candian Museum of History in Ottawa-Gatineau.

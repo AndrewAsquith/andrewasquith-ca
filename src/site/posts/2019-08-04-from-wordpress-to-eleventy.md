@@ -5,6 +5,10 @@ permalink: /posts/from-wordpress-to-eleventy/
 image: /img/posts/from-wordpress-to-eleventy/wordpress-eleventy-logos.jpg
 date: 2019-08-04
 isFeatured: true
+tags: 
+ - performance
+ - wordpress
+ - eleventy
 ---
 
 I recently switched this blog [WordPress](https://wordpress.org "WordPress") to [Eleventy](https://11ty.io "Eleventy") and wanted to go over a few of the differences.
